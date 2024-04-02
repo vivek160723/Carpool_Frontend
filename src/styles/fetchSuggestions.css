@@ -1,0 +1,25 @@
+/* FetchSuggestions.css */
+
+.suggestions-container {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 10px; /* Adjust the height as needed */
+    overflow-y: auto;
+    z-index: 1000;
+    width: 100%; /* Ensure suggestions span the full width of the input field */
+}
+
+
+  
+  .suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+  

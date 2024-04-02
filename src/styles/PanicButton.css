@@ -1,0 +1,61 @@
+/* panicButton.css */
+
+.panic-button {
+  position: fixed; /* Fixes the button position relative to the viewport */
+  bottom: 20px; /* Adjust the distance from the bottom */
+  right: 20px; /* Adjust the distance from the right */
+  z-index: 9999; /* Ensures the button stays above other content */
+  width: 60px; /* Adjust the width */
+  height: 60px; /* Adjust the height */
+  border-radius: 50%; /* Makes the button circular */
+  background-color: red; /* Background color of the button */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size of the text */
+  font-weight: bold; /* Font weight of the text */
+  display: flex; /* Centers the content horizontally and vertically */
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+  
+  .sos-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sos-button:hover {
+    background-color: darkred;
+  }
+  
+  .icon {
+    width: 14px;
+    height: 24px;
+  }
+  
+  .sos-alert {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  .sos-alert p {
+    margin: 0;
+    font-size: 126px;
+    color: red;
+  }
+  
+  /* Landscape mode styles */
+  @media screen and (orientation: landscape) {
+    .sos-alert p {
+      font-size: 15px; /* Adjust font size for landscape mode */
+    }
+  }
+  
